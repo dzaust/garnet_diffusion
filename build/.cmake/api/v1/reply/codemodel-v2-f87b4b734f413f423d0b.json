@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "garnet_diffusion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debug-Release-f724cdd99fb327a3c3f4.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "distclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-distclean-Release-6c4d28ca1e1e798c91e8.json",
+					"name" : "distclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "garnet_diffusion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-garnet_diffusion-Release-a0b5a70634ca42331888.json",
+					"name" : "garnet_diffusion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "info::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-info-Release-2edaae536f1d59566b15.json",
+					"name" : "info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release-Release-067b0379ec135aa59aa5.json",
+					"name" : "release",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-Release-9426c93ab4d78c1b3f36.json",
+					"name" : "run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runclean-Release-8268720f53727a4ae8ab.json",
+					"name" : "runclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sign-Release-f1440d79003cace0c89a.json",
+					"name" : "sign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strip_comments::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strip_comments-Release-876aec474b78ec31b570.json",
+					"name" : "strip_comments",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build",
+		"source" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

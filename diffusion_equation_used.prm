@@ -1,0 +1,27 @@
+subsection Diffusion Equation
+  set Initial global refinement    = 0
+  set Mesh file                    = mesh/3d.msh
+  set diffusion duration           = 10
+  set time step size               = 0.1
+  set varied diffusion coefficient = false
+  subsection Boundary values
+    set Function constants  = 
+    set Function expression = 10.
+    set Variable names      = x,y,z,t
+  end
+  subsection Diffusion coefficient
+    set Function constants  = 
+    set Function expression = 3.156e-4
+    set Variable names      = x,y,z,t
+  end
+  subsection Initial value
+    set Function constants  = 
+    set Function expression = 2
+    set Variable names      = x,y,z,t
+  end
+  subsection Right hand side
+    set Function constants  = 
+    set Function expression = 0.
+    set Variable names      = x,y,z,t
+  end
+end

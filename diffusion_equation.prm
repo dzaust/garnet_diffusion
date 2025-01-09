@@ -1,0 +1,37 @@
+# this is a comment
+subsection Diffusion Equation 
+  set Mesh file                     = mesh/3d.msh # set the mesh file
+  set Initial global refinement     = 0       # positive integer: the larger the number, the finer the mesh
+  set diffusion duration            = 10      # the total diffusion time, in m.y. (million years)
+  set time step size                = 0.1     # the time step, in m.y.
+  set varied diffusion coefficient  = false   # true or false. true represents D is varied as D=D(x, t); false represents D is a constant
+
+  # set the right hand side function f=f(x,y,t). The default is zero.
+  subsection Right hand side                
+    set Function constants  =                 # e.g., a=0.1, b=2, c=5.
+    set Function expression = 0.              # e.g., a*x - sin(pi)*y + c*exp(t)
+    set Variable names      = x,y,z,t         # x,t for 1D, x, y, t for 2D, and x,y,z,t for 3D
+  end
+  
+  # set the initial value
+  subsection Initial value                  
+    set Function constants  = 
+    set Function expression = 2
+    set Variable names      = x,y,z,t
+  end
+  
+  # set the Dirichlet type boundary value. 
+  # The Neumann boundary is zero by default.
+  subsection Boundary values                
+    set Function constants  = 
+    set Function expression = 10.
+    set Variable names      = x,y,z,t
+  end
+
+  # set the diffusion coefficient
+  subsection Diffusion coefficient          
+    set Function constants  = 
+    set Function expression = 3.156e-4
+    set Variable names      = x,y,z,t
+  end
+end
