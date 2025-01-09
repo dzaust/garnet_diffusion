@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix
+CMAKE_SOURCE_DIR = /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build
+CMAKE_BINARY_DIR = /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build
 
 # Utility rule file for distclean.
 
@@ -67,9 +67,9 @@ include CMakeFiles/distclean.dir/compiler_depend.make
 include CMakeFiles/distclean.dir/progress.make
 
 CMakeFiles/distclean:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "distclean invoked"
-	/usr/local/Cellar/cmake/3.25.2/bin/cmake --build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build --target clean
-	/usr/local/Cellar/cmake/3.25.2/bin/cmake --build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build --target runclean
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "distclean invoked"
+	/usr/local/Cellar/cmake/3.25.2/bin/cmake --build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build --target clean
+	/usr/local/Cellar/cmake/3.25.2/bin/cmake --build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build --target runclean
 	/usr/local/Cellar/cmake/3.25.2/bin/cmake -E remove_directory CMakeFiles
 	/usr/local/Cellar/cmake/3.25.2/bin/cmake -E remove CMakeCache.txt cmake_install.cmake compile_commands.json Makefile build.ninja rules.ninja .ninja_deps .ninja_log
 
@@ -86,6 +86,6 @@ CMakeFiles/distclean.dir/clean:
 .PHONY : CMakeFiles/distclean.dir/clean
 
 CMakeFiles/distclean.dir/depend:
-	cd /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles/distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/distclean.dir/depend
 

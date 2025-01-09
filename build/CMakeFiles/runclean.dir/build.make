@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix
+CMAKE_SOURCE_DIR = /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build
+CMAKE_BINARY_DIR = /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build
 
 # Utility rule file for runclean.
 
@@ -67,7 +67,7 @@ include CMakeFiles/runclean.dir/compiler_depend.make
 include CMakeFiles/runclean.dir/progress.make
 
 CMakeFiles/runclean:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "runclean invoked"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "runclean invoked"
 	/usr/local/Cellar/cmake/3.25.2/bin/cmake -E remove *.log *.gmv *.gnuplot *.gpl *.eps *.pov *.vtk *.ucd *.d2
 
 runclean: CMakeFiles/runclean
@@ -83,6 +83,6 @@ CMakeFiles/runclean.dir/clean:
 .PHONY : CMakeFiles/runclean.dir/clean
 
 CMakeFiles/runclean.dir/depend:
-	cd /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles/runclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles/runclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/runclean.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/garnet_diffusion.dir/garnet_diffusion.cc.o: \
-  /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/garnet_diffusion.cc \
+  /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/garnet_diffusion.cc \
   /usr/local/include/deal.II/base/utilities.h \
   /usr/local/include/deal.II/base/config.h \
   /usr/local/include/deal.II/base/numbers.h \

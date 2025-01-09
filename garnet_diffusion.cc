@@ -498,7 +498,7 @@ int main(int argc, char **argv)
   try
   {
     using namespace Step26;
-    DiffusionEquation<3> diffusion_equation_solver;
+    DiffusionEquation<2> diffusion_equation_solver;
     const std::string input_filename =  
         (argc > 1 ? argv[1] : "diffusion_equation.prm"); // hlwu
     ParameterAcceptor::initialize(input_filename, "diffusion_equation_used.prm"); // hlwu

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build"
+			"value" : "/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix"
+			"value" : "/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build"
+			"value" : "/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build"
 		},
 		{
 			"name" : "garnet_diffusion_IS_TOP_LEVEL",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix"
+			"value" : "/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion"
 		}
 	],
 	"kind" : "cache",

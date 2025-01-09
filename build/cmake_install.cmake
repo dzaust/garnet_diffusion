@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix
+# Install script for directory: /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

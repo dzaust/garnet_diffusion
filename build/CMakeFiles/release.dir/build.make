@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix
+CMAKE_SOURCE_DIR = /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build
+CMAKE_BINARY_DIR = /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build
 
 # Utility rule file for release.
 
@@ -67,8 +67,8 @@ include CMakeFiles/release.dir/compiler_depend.make
 include CMakeFiles/release.dir/progress.make
 
 CMakeFiles/release:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Switching CMAKE_BUILD_TYPE to Release"
-	/usr/local/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_BUILD_TYPE=Release /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Switching CMAKE_BUILD_TYPE to Release"
+	/usr/local/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_BUILD_TYPE=Release /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion
 	/usr/local/Cellar/cmake/3.25.2/bin/cmake -E echo "***"
 	/usr/local/Cellar/cmake/3.25.2/bin/cmake -E echo "*** Switched to Release mode. Now recompile with:  \$$ make"
 	/usr/local/Cellar/cmake/3.25.2/bin/cmake -E echo "***"
@@ -86,6 +86,6 @@ CMakeFiles/release.dir/clean:
 .PHONY : CMakeFiles/release.dir/clean
 
 CMakeFiles/release.dir/depend:
-	cd /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build /Users/wuhailin/Desktop/Diffusion_test/temp_step_26_fix/build/CMakeFiles/release.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build /Users/wuhailin/Desktop/Diffusion_test/garnet_diffusion/build/CMakeFiles/release.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/release.dir/depend
 
