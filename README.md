@@ -39,7 +39,7 @@ To run the program, please execute the following commands in the terminal:
 The results will be written to a VTK file, which can be processed using ParaView.
 
 # Compile the Program (CMake Required)
-If any functionality in the source code has been added or modified, the program must be recompiled.  
+If any functionality in the source code has been added or modified, the code should be recompiled.  
 In the terminal, execute the following commands:
 
     cd path/to/the/code
