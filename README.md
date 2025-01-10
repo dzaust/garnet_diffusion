@@ -4,7 +4,7 @@ The code has been adapted from the Step-26 tutorial program of deal.II, which wa
 
 # Steps for usage
 The executable files were compiled in macOS, which can be found in the bin folder of the project.  
-All that needs to be done is to create a mesh file and configure the parameters for diffusion in the diffusion_equation.prm file.  
+All that needs to be done is to create a mesh file and configure the parameters in the diffusion_equation.prm file.  
 The user does not need to modify the source code unless the existing functionality does not meet their requirements.
 
 ## Prerequisites
