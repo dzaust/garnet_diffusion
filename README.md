@@ -1,5 +1,5 @@
 # About the Project
-This program is designed to address the transient diffusion of species within container minerals.  
+This C++ program is designed to address the transient diffusion of species within container minerals.  
 The code has been adapted from the Step-26 tutorial program of deal.II, which was originally designed to solve the heat conduction equation.
 
 # Steps for usage
