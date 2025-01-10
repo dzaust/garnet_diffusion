@@ -8,7 +8,7 @@ All that needs to be done is to create a mesh file and configure the parameters 
 The user does not need to modify the source code unless the existing functionality does not meet their requirements.
 
 ## Prerequisites
-Users are required to install the deal.II library on either macOS or Linux operating systems.  
+Users are required to install the deal.II library on either macOS or Linux.  
 For detailed instructions, please refer to the official documentation available in the deal.II README at https://www.dealii.org/current/readme.html.
 ## Step 1: Create the Mesh File
 Create a mesh file with a .msh extension, for example, using Gmsh. Place the file into the mesh folder. 
