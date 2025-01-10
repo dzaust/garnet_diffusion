@@ -3,7 +3,7 @@ This program is designed to address the transient diffusion of species within co
 The code has been adapted from the Step-26 tutorial program of deal.II, which was originally designed to solve the heat conduction equation.
 
 # Steps for usage
-The compiled executable files for two-dimensional and three-dimensional diffusion can be found in the bin folder.  
+The compiled executable files (MacOS) for two-dimensional and three-dimensional diffusion can be found in the bin folder.  
 All that needs to be done is to create a mesh file and configure the parameters for diffusion in the diffusion_equation.prm file.  
 The user does not need to modify the source code unless the existing functionality does not meet their requirements.
 
